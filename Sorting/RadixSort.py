@@ -24,7 +24,7 @@ def radSort(arr: list[int]) :
     for i in range(1,n) :
         if arr[i] > mx :
             mx= arr[i]
-    exp: int= 1 
+    exp: int= 1
     while mx//exp > 0 :
         countSort(arr,exp)
         exp*=10
